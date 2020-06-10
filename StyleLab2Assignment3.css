@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+section{
+    border: 2px solid black;
+    width: 80% ;
+    margin: 10px auto;
+    box-shadow: blueviolet 10px 10px 50px inset;
+    border-radius: 20px;
+    padding: 20px;
+}
+.UpDiv,.myMap{
+    border: 3px solid black;
+    padding: 20px ;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+   
+}
+.myMap{
+    box-shadow: palegreen 10px 10px 50px inset;
+    height: 300px ;
+    padding: 50px ;
+}
+.UpDiv{
+    box-shadow: cyan -10px -10px 50px inset ;
+}
+input[type="button"]{
+   background-color: rgb(50, 60, 204);
+   border-radius: 20px;
+   padding: 10px;
+   font: bold 20px  tahoma;
+   color: white;
+   margin-left: 25px;
+   transition: transform 2s;
+}
+input[type="button"]:hover{
+    transform: scale(1.2) skewX(35deg);
+    
+}
+.infDiv{
+    display: block;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: blue 10px 10px 50px inset,green -10px -10px 50px inset;
+    width: 700px;
+    height: 250px;
+    margin: 1px auto;
+    visibility: hidden;
+    
+    
+}
+input[type="text"],label{
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+}
+label{
+    color: black;
+    font: bold 17px tahoma;
+}
+input[type="text"]{
+    background-color: rgb(0, 238, 255);
+    font: bold 15px tahoma;
+}
+.infDiv:active{
+    transform: scale(1.2);
+    box-shadow: darkviolet 10px 10px 100px inset;
+}
+
+
